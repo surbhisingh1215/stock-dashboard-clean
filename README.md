@@ -1,6 +1,6 @@
 # 📈 AI-Powered Stock Market Dashboard
 
-![Stock Dashboard](https://your-image-url.com)  <!-- Add a screenshot URL if available -->
+![Stock Dashboard](https://github.com/surbhisingh1215/stock-dashboard-clean/blob/f0c1812f2458d5dc827e6a4099441343abecb93a/Screenshot%202025-03-20%20at%2005.01.55.png)  
 
 A **Streamlit-powered** AI stock dashboard that **fetches real-time stock data, generates predictions using Machine Learning (Linear Regression), and visualizes stock trends with interactive charts**.
 
