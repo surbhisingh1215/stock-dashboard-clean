@@ -44,12 +44,6 @@ streamlit run stock_dashboard.py
 
 ⸻
 
-📷 Screenshots
-
-(Add screenshots of your dashboard here)
-
-⸻
-
 💡 Future Enhancements
 
 🚀 Upgrade to Deep Learning (LSTM) for better predictions
