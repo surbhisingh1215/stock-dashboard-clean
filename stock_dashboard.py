@@ -95,6 +95,7 @@ if symbol:
 
         # Plot the actual vs predicted stock prices
         fig = px.line(title=f"{symbol} Actual & Predicted Prices")
+        # **Corrected line: accessing 'Close' column correctly**
         fig.add_scatter(x=data.index[:len(predicted_stock_price)], y=data_close['Close'][:len(predicted_stock_price)], mode="lines", name="Actual Price")
         fig.add_scatter(x=prediction_df["Date"], y=prediction_df["Predicted Close"], mode="lines", name="Predicted Price", line=dict(dash="dot"))
         st.plotly_chart(fig)
